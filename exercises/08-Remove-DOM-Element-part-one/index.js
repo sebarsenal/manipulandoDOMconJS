@@ -3,5 +3,5 @@
 // you can use that to your advantage as a CSS selector
 
 
-var ulElem = document.getElementById('secondElement');
-ulElem.removeChild(ulElem.childNodes[2])
+var x = document.getElementById('secondElement');
+x.parentNode.removeChild(x)
